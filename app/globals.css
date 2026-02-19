@@ -1,0 +1,17 @@
+@config "../tailwind.config.ts";
+@import "tailwindcss";
+
+:root {
+	color-scheme: dark;
+}
+
+@layer base {
+	html,
+	body {
+		height: 100%;
+	}
+
+	body {
+		@apply bg-zinc-950 text-zinc-100;
+	}
+}
